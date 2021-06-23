@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: 100%;
+}
+
+#header{
+    background-color: rgb(15, 3, 184);
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+}
+
+.nav-link{
+    padding: 8px;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 6px;
+    color: rgb(253, 252, 252);
+}
+
+.control{
+    margin-right: 20px;
+    margin-top: 18px;
+}
+
+.nav-link:hover{
+    background-color: rgb(6, 95, 14);
+}
+
+#welcome-section{
+    height: 100vh;
+    background-image: url(https://i2.wp.com/www.dycil.com/wp-content/uploads/2016/08/Technique-for-Faster-Web-Development.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jean{
+display: inline;
+text-align: center;
+color:white;
+font-size: 2rem;
+
+}
