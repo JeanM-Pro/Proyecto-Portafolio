@@ -36,6 +36,7 @@ body{
     height: 100vh;
     background-image: url(https://i2.wp.com/www.dycil.com/wp-content/uploads/2016/08/Technique-for-Faster-Web-Development.jpg);
     background-size: 100% 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,27 +51,22 @@ font-size: 2rem;
 
 #projects{
     background-color: rgb(31, 53, 61);
+    width: 100vw;
 
 }
 
 .project-tile{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding-top: 25px;
 }
 
-.contenedor2{
-    display: flex;
-    justify-content: flex-start;
-    padding-top: 25px;
-    padding-left: 16vw;
+
+.fotos{
+    margin-bottom: 24px;
 }
 
-.fotos2{
-    margin-left: 25px;
-    margin-right: 24px;
-
-}
 
 .proyectos{
     border-radius: 0.7rem;
@@ -93,5 +89,57 @@ font-size: 2rem;
 
 .padree{
     padding-top: 30px;
-    
 }
+
+hr{
+    height: 3px;
+    background-color: blue;
+    margin-top: 20px;
+}
+
+.linkpadre{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 7px;
+    background-color: rgb(8, 167, 241);
+    padding-bottom: 6px;
+    margin-top: 20px;
+    width: 100vw;
+}
+
+.link1{
+    display: flex;
+    border: black 2px ;
+    padding-top: 9px;
+}
+
+.link2{
+    display: flex;
+    padding-top: 9px;
+}
+
+.acceso{
+    height: 50px;
+    width: 50px;
+}
+
+.forget{
+    color: black;
+    font-size: 20px;
+}
+
+.ancla{
+    text-decoration: none;
+}
+
+.link1:hover{
+    background-color: rgb(4, 238, 218);
+    border-radius: 0.5rem;
+}
+
+.link2:hover{
+    background-color: rgb(4, 238, 218);
+    border-radius: 0.5rem;
+}
+
+  
